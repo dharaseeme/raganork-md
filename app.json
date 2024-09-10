@@ -11,12 +11,12 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"false"
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
             "required": false,
-            "value":"jid,jid"
+            "value":"true"
         },
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
@@ -41,17 +41,17 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"David"
         },
         "CHATBOT": {
             "description": "AI chatbot",
             "required": true,
-            "value":"off"
+            "value":"true"
         },
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"david-bot"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
@@ -79,7 +79,7 @@
             "value":"{pp} Active since {uptime}\n User:{sender}"
         },
        "SESSION": {
-            "description": "Your MD session",
+            "description": "Raganork~ab021b95cf90898952001739950cb282:756b304c4f3563736a41343d",
             "required": true
              
         }
